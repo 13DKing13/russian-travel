@@ -6,4 +6,14 @@
     line-height: 76px;
     color: #fff;
     margin: 0;
+    text-align: center;
+    align-self: end;
+    row-gap: 32px;
+    justify-items: center;
+    z-index: 10;
+    opacity: 1;
+}
+
+.cover__title:hover {
+    opacity: 1;
 }
