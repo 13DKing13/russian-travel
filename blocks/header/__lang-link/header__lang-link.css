@@ -1,4 +1,10 @@
 .header__lang-link {
     color: #fff;
     text-decoration: none;
+    transition: 0.25s linear;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+    cursor : url("../../../images/pointer.svg"), default;
 }

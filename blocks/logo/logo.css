@@ -1,4 +1,10 @@
 .logo {
     max-width: 176px;
     max-height: 52px;
+    transition: 0.25s linear;
+}
+
+.logo:hover {
+    opacity: .8;
+    cursor : url("../../../images/pointer.svg"), default;
 }
