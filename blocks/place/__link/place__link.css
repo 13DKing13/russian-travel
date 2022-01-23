@@ -1,4 +1,10 @@
 .place__link {
     color: #fff;
     margin: 0;
+    transition: 0.25s linear;
+}
+
+.place__link:hover {
+    opacity: .8;
+    cursor : url("../../../images/pointer.svg"), default;
 }
