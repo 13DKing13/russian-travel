@@ -5,6 +5,27 @@
     font-size: 72px;
     line-height: 76px;
     color: #fff;
-    margin: 245px auto 32px;
+    margin: 0;
     text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: end;
+    z-index: 3;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        max-width: 70%;
+        font-size: 9.375vw;
+        line-height: 9.895833vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 75%;
+        font-size: 10vw;
+        line-height: 10.9375vw;
+    }
 }

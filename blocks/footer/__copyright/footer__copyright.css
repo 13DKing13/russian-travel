@@ -1,18 +1,18 @@
 .footer__copyright {
-    align-self: end;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     text-align: right;
+    align-self: end;
     color: #fff;
     margin: 0;
 }
 
 @media screen and (max-height: 425px) {
     .footer__copyright {
-        align-self: auto;
-        text-align: start;
+        text-align: left;
+        align-self: flex-start;
         line-height: .875;
     }
 }
