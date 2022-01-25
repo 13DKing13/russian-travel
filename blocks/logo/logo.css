@@ -1,10 +1,21 @@
 .logo {
     max-width: 176px;
-    max-height: 52px;
     transition: 0.25s linear;
 }
 
 .logo:hover {
     opacity: .8;
-    cursor : url("../../../images/pointer.svg"), default;
+    cursor : url("../../images/pointer.svg"), default;
+}
+
+@media screen and (max-width: 425px) {
+    .logo {
+        width: 41.41vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 142px;
+    }
 }

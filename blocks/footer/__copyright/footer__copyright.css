@@ -6,4 +6,13 @@
     line-height: 16px;
     text-align: right;
     color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-height: 425px) {
+    .footer__copyright {
+        align-self: auto;
+        text-align: start;
+        line-height: .875;
+    }
 }

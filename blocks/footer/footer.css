@@ -6,3 +6,30 @@
     margin: 0 auto;
     padding: 92px 0 24px;
 }
+
+@media screen and (max-width: 1280px) {
+    .footer {
+        width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 90.625%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        width: 58.125%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 48px;
+    }
+}

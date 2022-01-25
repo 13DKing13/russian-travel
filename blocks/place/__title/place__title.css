@@ -9,3 +9,24 @@
     grid-row: 1;
     grid-column: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 7vw;
+        line-height: 7.42vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 5.47vw;
+        line-height: 5.99vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__title {
+        font-size: 7.53vw;
+        line-height: 8.235vw;
+    }
+}
