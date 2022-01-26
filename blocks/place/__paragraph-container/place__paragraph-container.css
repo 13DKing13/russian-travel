@@ -1,9 +1,23 @@
 .place__paragraph-container {
     grid-area: paragraph-container;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph-container {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .place__paragraph-container {
+        max-width: 352px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph-container {
+        max-width: 288px;
         margin: 0 16px;
     }
 }

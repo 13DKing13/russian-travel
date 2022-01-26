@@ -13,15 +13,17 @@
 
 @media screen and (max-width: 1024px) {
     .place__title {
-        font-size: 7vw;
-        line-height: 7.42vw;
+        max-width: 330px;
+        font-size: 5.5vw;
+        line-height: 106%;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place__title {
-        font-size: 7.53vw;
-        line-height: 8.235vw;
+        max-width: 330px;
+        font-size: 5.5vw;
+        line-height: 109%;
     }
 }
 
