@@ -9,10 +9,10 @@
     margin: 0;
 }
 
-@media screen and (max-height: 425px) {
+@media screen and (max-width: 425px) {
     .footer__copyright {
-        text-align: left;
-        align-self: flex-start;
-        line-height: .875;
+        line-height: 14px;
+        align-self: start;
+        padding-top: 48px;
     }
 }

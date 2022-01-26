@@ -9,14 +9,7 @@
     transition: 0.25s linear;
 }
 
-@media screen and (max-width: 1280px) {
-    .footer__link {
-        font-size: 1rem;
-        line-height: 1.2;
-    }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .footer__link {
         font-size: 1.5rem;
         line-height: 1.2;

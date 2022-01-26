@@ -1,10 +1,10 @@
 .cover {
     max-width: 1184px;
-    display: grid;
-    grid-template-rows: repeat(2, min-content);
-    gap: 32px;
     margin: 0 auto;
-    position: relative;
+    background-image: url("../../images/cover-trains.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media screen and (max-width: 320px) {
