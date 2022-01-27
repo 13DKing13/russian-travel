@@ -3,13 +3,13 @@
     transition: 0.25s linear;
 }
 
-.logo:hover {
-    opacity: .8;
-    cursor : url("../../images/pointer.svg"), default;
-}
-
 @media screen and (max-width: 425px) {
     .logo {
         width: 142px;
     }
+}
+
+.logo:hover {
+    opacity: .3;
+    cursor : url("../../images/pointer.svg"), default;
 }

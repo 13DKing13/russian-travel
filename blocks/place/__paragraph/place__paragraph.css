@@ -4,7 +4,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-    margin: 0 0 26px;
+    margin: 0;
+    padding-bottom: 25px;
     color: #fff;
 }
 
@@ -15,6 +16,6 @@
 }
 
 .place__paragraph:last-of-type {
-    margin-bottom: 0;
+        padding-bottom: 0;
 }
 

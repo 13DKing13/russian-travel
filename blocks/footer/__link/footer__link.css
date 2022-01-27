@@ -5,18 +5,18 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 112%;
     transition: 0.25s linear;
 }
 
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 1.5rem;
-        line-height: 1.2;
+        line-height: 100%;
     }
 }
 
 .footer__link:hover {
-    opacity: .8;
+    opacity: .3;
     cursor : url("../../../images/pointer.svg"), default;
 }

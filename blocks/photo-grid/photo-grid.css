@@ -39,5 +39,6 @@
     .photo-grid {
         width: 90%;
         grid-gap: 12px;
+        padding: 64px 0;
     }
 }
