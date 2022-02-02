@@ -15,6 +15,12 @@
     }
 }
 
+@media screen and (max-width: 665px) {
+    .place__paragraph-container {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__paragraph-container {
         max-width: 288px;

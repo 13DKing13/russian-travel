@@ -19,12 +19,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .footer {
-        width: 93.75%;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .footer {
         width: 93.75%;

@@ -9,6 +9,6 @@
 }
 
 .place__link:hover {
-    opacity: .3;
+    opacity: .8;
     cursor : url("../../../images/pointer.svg"), default;
 }
